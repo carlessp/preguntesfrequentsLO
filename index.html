@@ -472,7 +472,7 @@
 
         </div>
 
-        <!-- Peu de pàgina -->
+
         <footer class="text-center mt-16">
             <p class="text-gray-600">Carles Sobrepere i Profitós</p>
         </footer>
@@ -480,14 +480,12 @@
     </div>
 
     <script>
-        // Lògica de l'acordió
         const accordionButtons = document.querySelectorAll('.accordion-button');
 
         accordionButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const content = button.nextElementSibling;
 
-                // Tanca tots els altres acords
                 accordionButtons.forEach(otherButton => {
                     if (otherButton !== button) {
                         otherButton.classList.remove('active');
@@ -496,15 +494,12 @@
                     }
                 });
 
-                // Obre o tanca l'acordió actual
                 button.classList.toggle('active');
 
                 if (button.classList.contains('active')) {
-                    // S'ha de mostrar el contingut
-                    content.style.padding = '0 1.5rem 1.5rem'; // Afegim padding inferior
+                    content.style.padding = '0 1.5rem 1.5rem';
                     content.style.maxHeight = content.scrollHeight + "px";
                 } else {
-                    // S'ha d'amagar
                     content.style.maxHeight = null;
                     content.style.padding = '0 1.5rem';
                 }
