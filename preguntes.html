@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Preguntes Freqüents sobre el Llenguatge</title>
+    <!-- Incloem Tailwind CSS per als estils -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Incloem la font Inter de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estils personalitzats */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+            padding: 0 1.5rem;
+            /* p-6 */
+        }
+
+        .accordion-button.active+.accordion-content {
+            transition: max-height 0.7s ease-in, padding 0.7s ease-in;
+        }
+
+        .accordion-button .icon {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .accordion-button.active .icon {
+            transform: rotate(135deg);
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
+
+    <header class="text-center mb-8 md:mb-12 bg-red-900 text-white p-7 shadow-lg">
+        <h1 class="text-3xl md:text-5xl font-bold mb-2">Desenvolupament del llenguatge oral</h1>
+        <p class="text-base md:text-lg text-red-100"><strong>Preguntes freqüents</strong></p>
+    </header>
+    <div class="container mx-auto px-4 py-8 md:py-16">
+
+
+        <div class="max-w-4xl mx-auto space-y-4">
+
+            <!-- Pregunta 1 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Per què és tan important centrar-se en el
+                        llenguatge en aquesta etapa (I3 a 2n de primària)?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p class="text-gray-700 pb-6 leading-relaxed">Aquesta etapa educativa representa un període de gran
+                        plasticitat cerebral, es tracta d’un període al qual diversos autors s’hi refereixen com el
+                        “període sensible” per al desenvolupament de la capacitat lingüística. És un temps extremadament
+                        valuós i una oportunitat que no es pot desaprofitar durant el qual s’han d’assentar les bases de
+                        la comunicació, el pensament i l'aprenentatge. Si el llenguatge no es desenvolupa durant aquesta
+                        etapa, ja no ho podrà fer més endavant, almenys amb la mateixa complexitat i riquesa.</p>
+                </div>
+            </div>
+
+            <!-- Pregunta 2 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Quina és la "recepta" bàsica per fer créixer el
+                        llenguatge a l'aula?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">La recepta que us proposem es basa en tres ingredients clau:</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4">
+                            <li><strong class="text-red-800">Exposició lingüística:</strong> Els infants necessiten una
+                                exposició rica, abundant i de qualitat. Al document ens referim a una “pluja constant de
+                                paraules”. Els alumnes necessiten les nostres paraules i les nostres produccions.</li>
+                            <li><strong class="text-red-800">Torns comunicatius:</strong> No n’hi ha prou que els
+                                infants estiguin exposats al llenguatge, han de participar en les converses i, per
+                                fer-ho, han d’entrar en els torns de conversa.</li>
+                            <li><strong class="text-red-800">Repetició:</strong> La repetició sistemàtica ajuda els
+                                infants a detectar patrons, interioritzar estructures i consolidar l'aprenentatge.</li>
+                        </ul>
+                        <p class="mt-4">Tots tres ingredients són necessaris per a un desenvolupament del llenguatge
+                            complet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 3 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">El document insisteix en la repetició, però no és
+                        una pràctica avorrida i antiquada?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p class="text-gray-700 pb-6 leading-relaxed">No, al contrari. La repetició és una estratègia
+                        altament eficaç per gestionar la càrrega cognitiva dels infants. Al document referim a un estudi
+                        molt interessant que va demostrar que els nens que van sentir el mateix conte repetidament van
+                        retenir molt millor el vocabulari nou que els alumnes que van sentir les mateixes paraules en
+                        contes diferents. Quan la història ja és coneguda, el cervell no ha de malgastar energia a
+                        seguir-la i pot dedicar tots els seus esforços a aprendre el nou vocabulari.</p>
+                    <p class="text-gray-700 pb-6 leading-relaxed">A això se li suma que, de fet, la repetició és una
+                        pràctica necessària, generalment, per qualsevol aprenentatge: penseu a aprendre a tocar un
+                        instrument musical, un esport o, de fet, imagineu-vos aprendre una nova llengua… sense repetició
+                        no hi ha aprenentatge.</p>
+                </div>
+            </div>
+
+            <!-- Pregunta 4 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Quin és exactament el meu paper com a mestre?
+                        Hauria de deixar que els infants aprenguessin sols o hauria d’intervenir directament?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p class="text-gray-700 pb-6 leading-relaxed">El paper del mestre és insubstituïble. No ets un
+                        espectador, sinó un agent actiu. La teva responsabilitat és ser el “parlant expert” i el model
+                        lingüístic que necessiten els teus alumnes. Això implica oferir un llenguatge elaborat,
+                        introduir paraules noves, corregir de manera implícita, sobretot, crear i facilitar oportunitats
+                        comunicatives. La teva tasca és intervenir amb sensibilitat i estratègia per proveir les
+                        “bastides” que els infants necessiten.</p>
+                    <p class="text-gray-700 pb-6 leading-relaxed">Les converses entre infants, molt necessàries per a
+                        altres aspectes, no aporten prou qualitat a l’exposició lingüística, tu, mestre, com a parlant
+                        expert aportes la riquesa que els alumnes necessiten.</p>
+                    <p class="text-gray-700 pb-6 leading-relaxed">Això és especialment rellevant si pensem en els
+                        alumnes que, a casa seva o al seu entorn social immediat, tenen menys possibilitats d’interacció
+                        i d’exposició lingüística en general o, de fet, en català. Si no us senten parlar a vosaltres
+                        català, si no us adreceu als alumnes en català, com imaginem que aprendran aquesta llengua?</p>
+                </div>
+            </div>
+
+            <!-- Pregunta 5 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">A la meva aula tinc infants que no parlen català.
+                        Quin paper té la seva llengua familiar?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">Una llengua materna sòlida és el millor fonament per aprendre'n de noves, ja que
+                            les habilitats lingüístiques (com narrar o argumentar) es transfereixen d’una llengua a
+                            l’altra. La teva tasca és ajudar l'infant a fer servir la seva primera llengua com una eina
+                            per entendre i aprendre el català. Aquí tens algunes consideracions:</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4">
+                            <li>Fes visible la diversitat a l'aula, amb cartells, etiquetes o materials escrits en
+                                llengües presents a les llars dels infants.</li>
+                            <li>Implica les famílies perquè comparteixin contes o cançons.</li>
+                            <li>Fes un ús intensiu de suports visuals (imatges, objectes, gestos), que són un punt de
+                                trobada universal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 6 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">El document suggereix agrupaments homogenis. No és
+                        millor treballar sempre amb grups heterogenis per tal d’afavorir la inclusió i les relacions
+                        entre iguals?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">La proposta no és establir grups homogenis de manera permanent i rígida. Tot i
+                            que els agrupaments heterogenis poden ser valuosos per a molts objectius, <strong>quan la
+                                finalitat és accelerar la competència lingüística</strong>, els agrupaments homogenis
+                            per nivell de desenvolupament lingüístic ofereixen avantatges considerables. Aquesta
+                            estratègia permet:</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4 mb-4">
+                            <li>Oferir una bastida lingüística més precisa als infants que presenten més dificultats.
+                            </li>
+                            <li>Proporcionar reptes adequats als infants amb un desenvolupament més avançat.</li>
+                            <li>Oferir un espai de major confort i autoestima als alumnes amb menor nivell de
+                                desenvolupament comunicatiu.</li>
+                            <li>Contrarestar l'anomenat “efecte Mateu”, pel qual, en llenguatge, els que més “parlen”
+                                més interaccions reben i els que menys, encara menys.</li>
+                        </ul>
+                        <p>Aquesta pràctica està avalada per la recerca científica amb diferents estudis i formats. Al
+                            document en destaquem un que es va fer a gran escala, de Petersen et al. (2022). En aquest
+                            estudi es va analitzar un programa d’instrucció del llenguatge oral en grups reduïts i
+                            homogenis per a alumnes que necessitaven suport addicional. Els resultats van ser molt
+                            reveladors: els alumnes que van rebre aquesta intervenció addicional, en grup reduït i
+                            homogeni, no només van mostrar millores significatives, sinó que van arribar a equiparar-se
+                            i, en alguns casos, superar els seus companys de rendiment mitjà i alt que només havien
+                            rebut la intervenció universal, en gran grup.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 7 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Quines activitats concretes i amb evidència puc
+                        aplicar a l'aula?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">La guia proposa diverses activitats dissenyades per incorporar els "ingredients"
+                            clau a l’aula, algunes tenen evidències molt sòlides i d’altres, en canvi, són propostes on
+                            sabem que es poden aplicar les estratègies que tenen evidència. Aquí en teniu un resum:</p>
+                        <ul class="list-disc list-inside space-y-3 pl-4">
+                            <li><strong class="text-red-800">Lectura dialògica:</strong> És una metodologia de lectura
+                                de contes molt estudiada que, a través de la relectura i de seqüències d'interacció
+                                pautades (com el cicle PEER i les preguntes CROWD), transforma la lectura en una
+                                conversa rica per desenvolupar el vocabulari i la comprensió.</li>
+                            <li><strong class="text-red-800">Creació conjunta d'històries:</strong> Mitjançant estímuls
+                                com daus amb imatges (Story Cubes) o targetes, els infants construeixen una història de
+                                manera col·laborativa. És fonamental la intervenció activa del docent per guiar, modelar
+                                i enriquir la narració.</li>
+                            <li><strong class="text-red-800">Racons de joc simbòlic guiats:</strong> Aquests racons es
+                                planifiquen amb una intenció lingüística clara, definint prèviament el vocabulari i les
+                                frases clau (p. ex., a "la consulta del metge"). El mestre hi participa inicialment com
+                                un personatge més per modelar el llenguatge en un context significatiu.</li>
+                            <li><strong class="text-red-800">Cançons, poemes i jocs de falda:</strong> Aquestes
+                                activitats s'aprofiten per anar més enllà del simple fet de cantar, conversant sobre el
+                                contingut, destacant paraules clau i, especialment, treballant la consciència fonològica
+                                de manera lúdica i rítmica.</li>
+                            <li><strong class="text-red-800">Els jocs amb lletres i sons:</strong> L'objectiu no és
+                                l'aprenentatge formal de la lectoescriptura, sinó despertar la curiositat i, sobretot,
+                                desenvolupar la consciència fonològica des de l'oralitat. Es proposa l'ús de materials
+                                sensorials i manipulables i s'introdueix el dactilològic (alfabet manual) com una eina
+                                lúdica i multisensorial per connectar de manera tangible el so, la grafia i un signe
+                                cinestèsic.</li>
+                            <li><strong class="text-red-800">L'assemblea:</strong> Aquesta activitat es planteja com una
+                                oportunitat comunicativa central, no només per a les rutines. Ha de ser un espai per a
+                                la conversa estructurada al voltant d'un tema, on el docent gestiona els torns de
+                                paraula per assegurar la participació de tothom, especialment dels alumnes amb menys
+                                habilitats, i aplica estratègies d'interacció per enriquir el diàleg.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 8 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">El llenguatge no es desenvolupa sol?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <p class="text-gray-700 pb-6 leading-relaxed">No, el llenguatge no es desenvolupa sol. El document
+                        ho il·lustra amb la història de l'emperador Frederic II, qui va aïllar nadons de tot contacte
+                        verbal per descobrir la “llengua original” de la humanitat. Tenia l’esperança que els infants
+                        desenvoluparien una llengua original, sense la influència de cap altra llengua. El resultat va
+                        ser tràgic: els infants no només no van desenvolupar cap llengua, sinó que van anar morint.
+                        Aquesta història serveix per entendre les conseqüències que pot tenir la falta d’un adult
+                        estimulador.</p>
+                    <p class="text-gray-700 pb-6 leading-relaxed">Més enllà d'aquesta al·legoria, totes les teories
+                        sobre l'adquisició del llenguatge coincideixen en la necessitat crucial que els infants rebin
+                        una exposició rica al llenguatge i que tinguin oportunitats per practicar i repetir. Fins i tot
+                        les teories que proposen un component innat pel desenvolupament del llenguatge afirmen que un
+                        entorn lingüístic estimulador és imprescindible per activar el dispositiu que activa aquest
+                        desenvolupament. A més, la història ens ha deixat altres testimonis, molt ben documentats, de
+                        les conseqüències de la privació lingüística, inclosa la que afecta alguns alumnes amb sordesa.
+                        Per tant, esperar que el llenguatge “aparegui” per si sol, sense una interacció rica i
+                        intencionada per part de l’adult, és renunciar al nostre paper d’educadors i desaprofitar una
+                        oportunitat que no tornarà.</p>
+                </div>
+            </div>
+
+            <!-- Pregunta 9 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">El document parla d'estratègies d'interacció
+                        verbal. Quines són i com les puc aplicar a l'aula?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">Les estratègies d'interacció verbal, detallades al llibre L’Ús del Llenguatge a
+                            l’Escola, són eines que utilitza el docent per aprofitar les produccions dels infants i
+                            retornar-les en forma d'estímul enriquit. L'objectiu d’aquestes estratègies és modelar i
+                            expandir el llenguatge dels alumnes de manera natural. Les principals estratègies són:</p>
+                        <ul class="list-disc list-inside space-y-3 pl-4">
+                            <li><strong class="text-red-800">Sobreinterpretació:</strong> Consisteix a atribuir un
+                                significat complet als intents comunicatius de l'infant, encara que siguin incomplets.
+                                Per exemple, si un infant assenyala una pilota i diu "Ah!", el mestre pot respondre:
+                                "Ah, vols la pilota vermella? I tant que sí!".</li>
+                            <li><strong class="text-red-800">Expansions:</strong> Es reelabora la producció de l'infant
+                                afegint-hi els elements gramaticals que ha omès per tal d’oferir un model més complet.
+                                Si l'infant diu "Nenota cau", el mestre pot expandir: "Sí, la nina grossa ha caigut a
+                                terra".</li>
+                            <li><strong class="text-red-800">Reformulació:</strong> És similar a l'expansió, però se
+                                centra a corregir l'estructura gramatical d'un enunciat incorrecte. Si l'infant diu "Jo
+                                sepo fer-ho", el mestre reformula: "Ah, tu ho saps fer? Que bé!".</li>
+                            <li><strong class="text-red-800">Correccions implícites:</strong> Consisteixen a oferir el
+                                model correcte dins de la conversa, sense assenyalar directament l'error. Si l'infant
+                                diu "Es van caure els dos", el mestre corregeix implícitament: "Ah, van caure tots dos,
+                                oi?".</li>
+                            <li><strong class="text-red-800">Encadenaments:</strong> Es connecta una producció de
+                                l'infant amb una del mestre per construir un enunciat conjunt. El mestre pot començar
+                                una frase i deixar que l'infant l'acabi ("Avui per esmorzar tenim una poma i...") o
+                                completar la que l'infant ha deixat a mitges.</li>
+                        </ul>
+                        <p class="mt-4">Com veieu, però, moltes de les estratègies tenen punts en comú i, sovint, es
+                            podrien confondre. El més important, però, és recordar que hem d’incorporar, en el nostre
+                            dia a dia, l’objectiu de recollir les produccions dels infants, avaluar-les i tornar-les una
+                            mica millors, amb vocabulari una mica més precís i estructures una mica més elaborades.
+                            D’aquesta manera, les nostres interaccions aportaran una exposició enriquida.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 10 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Com s'apliquen les estratègies d'interacció verbal
+                        a la llengua de signes catalana (LSC)?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">Les estratègies d'interacció com l'expansió, el modelatge o la reformulació són
+                            igualment fonamentals en LSC, però s'adapten a la seva modalitat visual i gestual per tal
+                            d’enriquir les produccions dels infants.</p>
+
+                        <h4 class="text-base md:text-lg font-semibold text-gray-800 mt-4 mb-2">Modelatge i expansió de
+                            la gramàtica
+                            visual</h4>
+                        <p class="mb-4">El docent aprofita les produccions signades dels infants per expandir-les o
+                            reformular-les, oferint models lingüístics més rics. L'expansió en LSC pot implicar:</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4 mb-4">
+                            <li><strong>Introduir signes nous o classificadors</strong> per enriquir el vocabulari.</li>
+                            <li><strong>Modelar l'ús correcte de l'espai sígnic</strong> per a les referències
+                                pronominals (marcar on són els personatges o objectes).</li>
+                            <li><strong>Incorporar marcadors no manuals</strong> (expressions facials, alçament de
+                                celles, avançament del cos…) que tenen una funció gramatical.</li>
+                            <li><strong>Mostrar l'ús de classificadors</strong> per descriure objectes, accions i
+                                relacions espacials amb més detall.</li>
+                            <li><strong>Exemplificar l'alternança de rols</strong> per representar personatges en una
+                                narració.</li>
+                        </ul>
+
+                        <h4 class="text-base md:text-lg font-semibold text-gray-800 mt-4 mb-2">El docent com a usuari
+                            expert</h4>
+                        <p>El mestre actua com a model lingüístic, utilitzant de manera natural tots aquests recursos
+                            per enriquir la conversa. Amb els més petits, això també inclou adaptar el signat per fer-lo
+                            més accessible (signes més lents, amplis i repetits). L'objectiu final és sempre validar
+                            l'intent comunicatiu de l'infant i oferir-li, de manera constructiva, una versió més
+                            elaborada que pugui anar integrant.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 11 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Per què és tan important cuidar l'espai físic i
+                        gestionar el soroll de l'aula?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">Perquè l'entorn físic és un "escenari" que pot potenciar o dificultar enormement
+                            la comunicació i l'aprenentatge. Cal tenir en compte dos aspectes clau:</p>
+                        <ul class="list-disc list-inside space-y-2 pl-4">
+                            <li><strong class="text-red-800">L'organització de l'espai:</strong> La disposició dels
+                                infants ha de facilitar el contacte visual i l'escolta mútua, que són motors de la
+                                interacció. Per això, les disposicions en cercle o en petits grups són molt més
+                                efectives per a les activitats de llenguatge que la disposició tradicional en fileres,
+                                que també pot ser positiva per altres activitats. A més, treballar en grups reduïts amb
+                                una ràtio adult/infant baixa garanteix més oportunitats de participació de qualitat per
+                                a cada infant.</li>
+                            <li><strong class="text-red-800">La gestió del soroll:</strong> El soroll de fons és una
+                                “barrera invisible” que afecta negativament la capacitat de percebre i processar el
+                                llenguatge.
+                                <ul class="list-disc list-inside space-y-2 pl-6 mt-2">
+                                    <li><strong>En la percepció:</strong> Emmascara els sons de la parla, especialment
+                                        les
+                                        consonants, fet que obliga els infants a fer un sobreesforç per entendre o,
+                                        simplement,
+                                        dificulta la comprensió. A més, genera fatiga.</li>
+                                    <li><strong>En l'atenció:</strong> Dificulta la concentració i sobrecarrega la
+                                        memòria de
+                                        treball, i això disminueix el rendiment.</li>
+                                    <li><strong>En l'aprenentatge:</strong> La recerca demostra que els nivells de
+                                        soroll comuns a les aules tenen efectes molt perjudicials en la comprensió i
+                                        l'aprenentatge de nou vocabulari.</li>
+                                    <li><strong>En el benestar:</strong> Obliga el docent a forçar la veu, fet que causa
+                                        fatiga vocal i estrès.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p class="mt-4">Per gestionar tot això, cal minimitzar el soroll durant les activitats clau,
+                            utilitzar materials que absorbeixin el so (catifes, cortines) i fer partícips els alumnes de
+                            la responsabilitat de mantenir un ambient tranquil.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pregunta 12 -->
+            <div class="bg-white border-l-4 border-red-700 rounded-r-lg shadow-sm">
+                <button
+                    class="accordion-button w-full flex justify-between items-center text-left p-6 hover:bg-red-50 focus:outline-none">
+                    <span class="text-xl font-semibold text-gray-900">Què passa si un infant continua tenint moltes
+                        dificultats malgrat aplicar totes aquestes estratègies?</span>
+                    <span class="icon text-red-700 text-3xl font-thin">+</span>
+                </button>
+                <div class="accordion-content">
+                    <div class="text-gray-700 pb-6 leading-relaxed">
+                        <p class="mb-4">En primer lloc, és fonamental distingir entre un infant que presenta dificultats
+                            en el desenvolupament del llenguatge i un que està en procés d'aprendre el català com a
+                            segona o tercera llengua. Un alumne que desconeix la llengua vehicular de l'escola potser no
+                            té cap dificultat en la seva llengua familiar i, per tant, no necessitaria una intervenció
+                            logopèdica, sinó un suport lingüístic per aprendre el català.</p>
+                        <p class="mb-4">Per als infants que sí que mostren dificultats en el desenvolupament del
+                            llenguatge, el document proposa un model de resposta graduada en tres nivells d'intensitat,
+                            d’acord amb la normativa vigent:</p>
+                        <ul class="list-disc list-inside space-y-3 pl-4">
+                            <li><strong class="text-red-800">Mesures i suports universals:</strong> Són les estratègies
+                                que s'apliquen a tot el grup-classe, com poden ser la lectura dialògica, les converses a
+                                l'assemblea o el joc simbòlic guiat. Aquestes propostes s’adrecen a tots els alumnes.
+                                Totes les propostes didàctiques abordades en aquest document constitueixen mesures i
+                                suports universals</li>
+                            <li><strong class="text-red-800">Mesures i suports addicionals:</strong> Si un alumne
+                                necessita més suport, s'intensifiquen les mesures. La manera més eficaç d’intensificar
+                                el suport és aplicar les mateixes propostes didàctiques (lectura dialògica, jocs de
+                                consciència fonològica, etc.) però en <strong>grups reduïts i homogenis</strong>, on
+                                l'infant té més oportunitats d'interactuar i un context més tranquil. Aquest suport pot
+                                ser liderat per la <strong>mestra d’educació especial o la d’audició i llenguatge
+                                    (MESI)</strong>, d’entre altres.</li>
+                            <li><strong class="text-red-800">Mesures i suports intensius:</strong>ón actuacions
+                                extraordinàries per a alumnes amb necessitats educatives especials i dificultats
+                                significatives. Normalment, requereixen una avaluació psicopedagògica de l'EAP i poden
+                                implicar la intervenció de serveis especialitzats com:
+
+                                <ul class="list-disc list-inside space-y-2 pl-6 mt-2">
+                                    <li><strong>CREDA (Centres de Recursos Educatius per a Deficients Auditius):
+                                        </strong> Ofereixen suport logopèdic especialitzat a alumnes amb greus
+                                        dificultats de llenguatge i parla. Aquest suport intensiu sol concretar-se en un
+                                        parell de sessions a la setmana, en format individual i fora de l’aula
+                                        ordinària.</li>
+                                    <li><strong>SIEI (Suports Intensius a l'Escolarització Inclusiva):</strong> Per a
+                                        alumnes amb una elevada intensitat de necessitats, els seus professionals poden
+                                        planificar programes d'estimulació de la comunicació, d’intercanvi comunicatiu
+                                        amb pictogrames o altres propostes.</li>
+                                    <li><strong>CEEPSIR (Centres d’Educació Especial Proveïdors de Suports i
+                                            Recursos):</strong> La recerca demostra que els nivells de
+                                        soroll comuns a les aules tenen efectes molt perjudicials en la comprensió i
+                                        l'aprenentatge de nou vocabulari.</li>
+                                    <li><strong>En el benestar:</strong> Obliga el docent a forçar la veu, fet que causa
+                                        fatiga vocal i estrès.</li>
+                                </ul>
+
+
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Peu de pàgina -->
+        <footer class="text-center mt-16">
+            <p class="text-gray-600">Carles Sobrepere i Profitós</p>
+        </footer>
+
+    </div>
+
+    <script>
+        // Lògica de l'acordió
+        const accordionButtons = document.querySelectorAll('.accordion-button');
+
+        accordionButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                const content = button.nextElementSibling;
+
+                // Tanca tots els altres acords
+                accordionButtons.forEach(otherButton => {
+                    if (otherButton !== button) {
+                        otherButton.classList.remove('active');
+                        otherButton.nextElementSibling.style.maxHeight = null;
+                        otherButton.nextElementSibling.style.padding = '0 1.5rem';
+                    }
+                });
+
+                // Obre o tanca l'acordió actual
+                button.classList.toggle('active');
+
+                if (button.classList.contains('active')) {
+                    // S'ha de mostrar el contingut
+                    content.style.padding = '0 1.5rem 1.5rem'; // Afegim padding inferior
+                    content.style.maxHeight = content.scrollHeight + "px";
+                } else {
+                    // S'ha d'amagar
+                    content.style.maxHeight = null;
+                    content.style.padding = '0 1.5rem';
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
